@@ -116,5 +116,20 @@
 
 <footer><div class="footer-logo">JISAN<span>.</span></div><p>© <span id="year"></span> Jisan Mahmud. All Rights Reserved.</p><div class="social-links"><a href="https://github.com/jisanmahmud759-lab" target="_blank">GitHub</a><a href="https://www.facebook.com/share/1CHPycB24B/" target="_blank">Facebook</a></div></footer>
 <script src="script.js"></script>
+  <script>
+  const seeMoreBtn = document.getElementById('seeMoreBtn');
+  const hiddenPhotos = document.querySelectorAll('.hidden-photo');
+  let isExpanded = false;
+
+  seeMoreBtn.addEventListener('click', function() {
+    isExpanded = !isExpanded;
+    
+    hiddenPhotos.forEach(photo => {
+      photo.style.display = isExpanded ? 'block' : 'none';
+    });
+
+    seeMoreBtn.textContent = isExpanded ? 'See Less' : 'See More';
+  });
+</script>
 </body>
 </html>
