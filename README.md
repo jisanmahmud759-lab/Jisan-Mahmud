@@ -1,15 +1,11 @@
-# Jisan Mahmud - Portfolio
+# Jisan Mahmud Portfolio
+Updated GitHub Pages portfolio with 5 photography images and responsive lightbox gallery.
 
-Personal portfolio website built with HTML, CSS and JavaScript.
+## Upload
+Upload all files/folders to the root of your GitHub repository. Keep the `photography` folder unchanged.
 
-## Files
-- index.html
-- style.css
-- script.js
+## Profile photo
+The current package keeps the JM placeholder because no profile portrait was uploaded in this batch. When you have the portrait, add it as `profile.jpg` and replace the `.avatar` content in `index.html` with an `<img>` tag.
 
-## Run
-Open `index.html` in any modern browser.
-
-## Deploy on GitHub Pages
-Upload these files to a GitHub repository, then enable GitHub Pages from:
-Settings -> Pages -> Deploy from branch -> main -> / (root)
+## Profile picture
+The profile picture now uses the Facebook CDN image URL you supplied. Note: Facebook CDN URLs can expire/change, so this is a live external image reference, not a permanent URL.
