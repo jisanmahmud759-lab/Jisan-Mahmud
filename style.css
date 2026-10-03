@@ -19,6 +19,28 @@
   border-radius: 12px;
   transition: transform 0.3s ease;
 }
+/* Prothome baki chobi gulo lukaye rakhbe */
+.hidden-photo {
+  display: none;
+}
+
+/* See More Button Style */
+.see-more-btn {
+  padding: 10px 24px;
+  background-color: #00adb5;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.see-more-btn:hover {
+  background-color: #00888e;
+  transform: translateY(-2px);
+}
 
 .photo-gallery img:hover {
   transform: scale(1.05);
